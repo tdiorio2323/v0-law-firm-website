@@ -8,29 +8,29 @@ export default function Contact() {
         <p className="mt-3 text-white/70">Demo only — submission disabled. Please call instead.</p>
         <form className="space-y-4 mt-6">
           <input
-            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-white/20"
+            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-gold/40"
             placeholder="Name"
           />
           <input
-            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-white/20"
+            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-gold/40"
             placeholder="Phone (optional)"
           />
           <input
-            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-white/20"
+            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-gold/40"
             type="email"
             placeholder="Email"
           />
           <input
-            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-white/20"
+            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-gold/40"
             placeholder="Subject"
           />
           <textarea
-            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-white/20"
+            className="w-full rounded-lg border border-white/15 bg-white/5 px-4 py-3 outline-none focus:ring-2 focus:ring-gold/40"
             rows={6}
             placeholder="Tell us about your case"
           />
           <button
-            className="inline-flex items-center rounded-lg bg-white px-5 py-3 text-black text-sm font-medium opacity-50 cursor-not-allowed"
+            className="inline-flex items-center rounded-lg bg-gold px-5 py-3 text-black text-sm font-medium opacity-50 cursor-not-allowed"
             disabled
             title="Demo only"
           >

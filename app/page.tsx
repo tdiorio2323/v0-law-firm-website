@@ -28,7 +28,7 @@ export default function Page() {
           <Link
             key={a.title}
             href={a.href}
-            className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm hover:shadow-lg transition"
+            className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-sm hover:shadow-lg hover:border-gold/30 transition-all duration-200"
           >
             <h3 className="text-xl font-medium">{a.title}</h3>
             <p className="mt-2 text-white/70">{a.blurb}</p>

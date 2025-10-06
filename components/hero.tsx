@@ -16,7 +16,7 @@ export function Hero() {
         <div className="mt-8 flex gap-3 justify-center">
           <Link
             href="/contact"
-            className="inline-flex items-center rounded-lg bg-white px-5 py-3 text-black text-sm font-medium hover:opacity-90"
+            className="inline-flex items-center rounded-lg bg-gold px-5 py-3 text-black text-sm font-medium hover:opacity-90"
           >
             Free Consultation
           </Link>

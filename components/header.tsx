@@ -25,14 +25,14 @@ export function Header() {
           ))}
           <a
             href="tel:+17185306548"
-            className="inline-flex h-9 items-center rounded-lg bg-white px-4 text-black text-sm font-medium hover:opacity-90"
+            className="inline-flex h-9 items-center rounded-lg bg-gold px-4 text-black text-sm font-medium hover:opacity-90"
           >
             Call (718) 530-6548
           </a>
         </nav>
         <a
           href="tel:+17185306548"
-          className="md:hidden inline-flex h-9 items-center rounded-lg bg-white px-3 text-black text-sm font-medium"
+          className="md:hidden inline-flex h-9 items-center rounded-lg bg-gold px-3 text-black text-sm font-medium"
         >
           Call
         </a>
