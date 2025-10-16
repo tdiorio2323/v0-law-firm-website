@@ -1,7 +1,10 @@
 import type { MetadataRoute } from "next"
 
+// TODO: Update TEMP_BASE to final domain (e.g., https://mirigliano-law.com) after DNS configuration
+const TEMP_BASE = "https://v0-law-firm-website-f16qm1d87-td-studioss-projects.vercel.app"
+
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://mirigliano-law.vercel.app" // TODO: Update to final domain after DNS
+  const baseUrl = TEMP_BASE
 
   return [
     {

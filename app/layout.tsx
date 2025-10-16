@@ -12,8 +12,11 @@ export const viewport: Viewport = {
   themeColor: "#0A0A0A",
 }
 
+// TODO: Update TEMP_BASE to final domain (e.g., https://mirigliano-law.com) after DNS configuration
+const TEMP_BASE = "https://v0-law-firm-website-f16qm1d87-td-studioss-projects.vercel.app"
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mirigliano-law.vercel.app"), // TODO: Update to final domain after DNS
+  metadataBase: new URL(TEMP_BASE),
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
@@ -41,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mirigliano-law.vercel.app",
+    url: TEMP_BASE,
     title: siteConfig.name,
     description: siteConfig.hero.tagline,
     siteName: siteConfig.name,

@@ -1,5 +1,8 @@
 import { siteConfig } from "./site"
 
+// TODO: Update TEMP_BASE to final domain (e.g., https://mirigliano-law.com) after DNS configuration
+const TEMP_BASE = "https://v0-law-firm-website-f16qm1d87-td-studioss-projects.vercel.app"
+
 export interface SEOMetadata {
   title: string
   description: string
@@ -14,7 +17,7 @@ export interface SEOMetadata {
 export function generateMetadata({ title, description, url, image, type = "website" }: SEOMetadata) {
   const siteName = siteConfig.name
   const fullTitle = title.includes(siteName) ? title : `${title} | ${siteName}`
-  const baseUrl = "https://mirigliano-law.vercel.app" // TODO: Update to final domain after DNS
+  const baseUrl = TEMP_BASE
   const fullUrl = url ? `${baseUrl}${url}` : baseUrl
   const ogImage = image || `${baseUrl}/og-image.jpg`
 
@@ -72,7 +75,7 @@ export function generateLawFirmSchema() {
       opens: "00:00",
       closes: "23:59",
     },
-    url: "https://mirigliano-law.vercel.app",
+    url: TEMP_BASE,
     areaServed: [
       {
         "@type": "State",
@@ -137,7 +140,7 @@ export function generateBreadcrumbSchema(items: Array<{ name: string; url: strin
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: `https://mirigliano-law.vercel.app${item.url}`,
+      item: `${TEMP_BASE}${item.url}`,
     })),
   }
 }
@@ -170,7 +173,7 @@ export function generateServiceSchema(service: {
         name: "New Jersey",
       },
     ],
-    url: `https://mirigliano-law.vercel.app${service.url}`,
+    url: `${TEMP_BASE}${service.url}`,
   }
 }
 
