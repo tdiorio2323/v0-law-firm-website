@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://mirigliano-law.com"
+  const baseUrl = "https://mirigliano-law.vercel.app" // TODO: Update to final domain after DNS
 
   return [
     {
