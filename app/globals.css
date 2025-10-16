@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --color-gold: #C2A676;
+}
+
 /* Dark theme colors matching requirements */
 :root {
   color-scheme: dark;
