@@ -41,7 +41,7 @@ export const siteConfig = {
     { label: "About", href: "/about" },
     { label: "Practice Areas", href: "/practice-areas" },
     { label: "Results", href: "/results" },
-    { label: "On Video", href: "/on-video" },
+    { label: "FAQ", href: "/faq" },
     { label: "Contact", href: "/contact" },
   ],
 } as const
