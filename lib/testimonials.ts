@@ -13,7 +13,7 @@ export const testimonials: Testimonial[] = [
     name: "Michael R.",
     case: "Federal Criminal Defense",
     rating: 5,
-    text: "Tom was exceptional from start to finish. He took the time to explain every aspect of my case and fought tirelessly for the best possible outcome. His knowledge of federal criminal law is unmatched, and his dedication to his clients is evident in everything he does. I couldn't have asked for better representation.",
+    text: "The legal team was exceptional from start to finish. They took the time to explain every aspect of my case and fought tirelessly for the best possible outcome. Their knowledge of federal criminal law is unmatched, and their dedication to clients is evident in everything they do. I couldn't have asked for better representation.",
     date: "2024-09"
   },
   {
@@ -21,7 +21,7 @@ export const testimonials: Testimonial[] = [
     name: "Sarah L.",
     case: "Employment Discrimination",
     rating: 5,
-    text: "After experiencing workplace discrimination, I felt powerless. Thomas listened to my story with compassion and immediately put together a strong case. He was responsive, professional, and achieved a settlement that exceeded my expectations. I highly recommend him to anyone facing employment issues.",
+    text: "After experiencing workplace discrimination, I felt powerless. The legal team listened to my story with compassion and immediately put together a strong case. They were responsive, professional, and achieved a settlement that exceeded my expectations. I highly recommend them to anyone facing employment issues.",
     date: "2024-08"
   },
   {
@@ -29,7 +29,7 @@ export const testimonials: Testimonial[] = [
     name: "David P.",
     case: "Civil Rights Violation",
     rating: 5,
-    text: "When my civil rights were violated, Tom stepped in and fought for justice. His strategic approach and courtroom presence were impressive. He kept me informed throughout the entire process and secured a favorable outcome. If you need someone who will stand up for your rights, Thomas Mirigliano is your attorney.",
+    text: "When my civil rights were violated, the legal team stepped in and fought for justice. Their strategic approach and courtroom presence were impressive. They kept me informed throughout the entire process and secured a favorable outcome. If you need someone who will stand up for your rights, this firm delivers.",
     date: "2024-07"
   },
   {
@@ -37,7 +37,7 @@ export const testimonials: Testimonial[] = [
     name: "Jennifer M.",
     case: "Complex Civil Litigation",
     rating: 5,
-    text: "Tom handled my complex civil case with incredible skill and attention to detail. He was always available to answer questions and provided clear guidance through a complicated legal process. His expertise and commitment resulted in a successful resolution. I'm grateful for his representation.",
+    text: "The firm handled my complex civil case with incredible skill and attention to detail. They were always available to answer questions and provided clear guidance through a complicated legal process. Their expertise and commitment resulted in a successful resolution. I'm grateful for their representation.",
     date: "2024-06"
   },
   {
@@ -45,7 +45,7 @@ export const testimonials: Testimonial[] = [
     name: "Robert K.",
     case: "State Criminal Defense",
     rating: 5,
-    text: "Facing criminal charges was the most stressful experience of my life. Thomas was there every step of the way, providing expert legal counsel and unwavering support. His thorough preparation and courtroom advocacy made all the difference. I can't thank him enough for the outcome he achieved.",
+    text: "Facing criminal charges was the most stressful experience of my life. The legal team was there every step of the way, providing expert legal counsel and unwavering support. Their thorough preparation and courtroom advocacy made all the difference. I can't thank them enough for the outcome they achieved.",
     date: "2024-05"
   },
   {
@@ -53,7 +53,7 @@ export const testimonials: Testimonial[] = [
     name: "Amanda T.",
     case: "Wrongful Termination",
     rating: 5,
-    text: "Tom is a brilliant attorney who genuinely cares about his clients. After being wrongfully terminated, he helped me understand my rights and pursued my case aggressively. His negotiation skills are outstanding, and he secured a settlement that provided justice and closure. Highly recommended.",
+    text: "The attorneys here are brilliant and genuinely care about their clients. After being wrongfully terminated, they helped me understand my rights and pursued my case aggressively. Their negotiation skills are outstanding, and they secured a settlement that provided justice and closure. Highly recommended.",
     date: "2024-04"
   }
 ]

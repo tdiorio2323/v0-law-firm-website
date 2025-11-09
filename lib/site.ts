@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Law Office of Thomas S. Mirigliano",
+  name: "TD STUDIOS",
   phone: "(718) 530-6548",
   phoneHref: "tel:+17185306548",
   address: "40 Wall St, 32nd Fl, New York, NY 10005",

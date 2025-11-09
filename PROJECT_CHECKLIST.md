@@ -1,7 +1,7 @@
 # Website Revamp Project Checklist
-## Law Office of Thomas S. Mirigliano
+## TD STUDIOS
 
-Complete roadmap for launching the new Next.js website at miriglianolaw.com
+Complete roadmap for launching the new Next.js website
 
 ---
 
@@ -17,7 +17,7 @@ Complete roadmap for launching the new Next.js website at miriglianolaw.com
   - [ ] Update `app/layout.tsx` metadata with favicon links
 
 - [ ] **Replace attorney photo**
-  - [ ] Obtain professional headshot of Thomas S. Mirigliano
+  - [ ] Obtain professional headshot photo
   - [ ] Optimize for web (WebP format, ~150KB max)
   - [ ] Save to `/public/attorney-photo.jpg` (or .webp)
   - [ ] Update `app/about/page.tsx` image reference
@@ -354,8 +354,8 @@ Complete roadmap for launching the new Next.js website at miriglianolaw.com
 
 **Required Assets:**
 - [ ] Firm logo (SVG preferred, PNG fallback, transparent background)
-- [ ] Professional headshot photo of Thomas S. Mirigliano (high-res)
-- [ ] Detailed attorney bio (education, bar admissions, experience)
+- [ ] Professional headshot photo (high-res)
+- [ ] Detailed bio (education, bar admissions, experience)
 - [ ] 3-5 client testimonials (with permission to publish)
 - [ ] Actual case results (approved for publication, compliant with advertising rules)
 - [ ] Video content URLs for On Video page (YouTube/Vimeo links)
@@ -409,7 +409,6 @@ Complete roadmap for launching the new Next.js website at miriglianolaw.com
 
 ## 🔗 Important Links
 
-- **Current Site:** https://www.miriglianolaw.com/
 - **Development:** http://localhost:3000
 - **Vercel Dashboard:** https://vercel.com/dashboard
 - **Google Analytics:** https://analytics.google.com/
@@ -420,7 +419,6 @@ Complete roadmap for launching the new Next.js website at miriglianolaw.com
 
 ## 📞 Project Contacts
 
-- **Attorney:** Thomas S. Mirigliano - (718) 530-6548
 - **Developer:** [Your name/contact]
 - **Domain Registrar:** [Company name & login info]
 - **Hosting:** Vercel

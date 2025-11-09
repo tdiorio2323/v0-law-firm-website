@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "complex litigation",
     "police misconduct lawyer",
     "wrongful termination attorney",
-    "Thomas Mirigliano",
+    "TD STUDIOS",
   ],
   authors: [{ name: siteConfig.name }],
   creator: siteConfig.name,

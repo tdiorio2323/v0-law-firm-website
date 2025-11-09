@@ -1,4 +1,4 @@
-# Law Office of Thomas S. Mirigliano
+# TD STUDIOS
 
 A sleek, conversion-focused frontend website for a NYC/NJ litigation firm built with Next.js, TypeScript, and Tailwind CSS.
 

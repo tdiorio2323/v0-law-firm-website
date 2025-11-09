@@ -2,8 +2,8 @@ import { VideoRail } from "@/components/video-rail"
 import { Section } from "@/components/section"
 
 export const metadata = {
-  title: "On Video - Thomas S. Mirigliano",
-  description: "Watch attorney Thomas S. Mirigliano discuss legal matters, case strategies, and provide expert commentary.",
+  title: "On Video - TD STUDIOS",
+  description: "Watch TD STUDIOS legal team discuss legal matters, case strategies, and provide expert commentary.",
 }
 
 const videos = [
@@ -33,7 +33,7 @@ export default function OnVideoPage() {
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-semibold mb-3">On Video</h1>
         <p className="text-white/70 text-lg mb-12 max-w-3xl">
-          Watch attorney Thomas S. Mirigliano discuss important legal topics, case strategies, and provide expert
+          Watch the TD STUDIOS legal team discuss important legal topics, case strategies, and provide expert
           commentary on criminal defense, civil rights, and employment law.
         </p>
         <VideoRail videos={videos} />

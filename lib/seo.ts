@@ -103,7 +103,7 @@ export function generateAttorneySchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Person",
-    name: "Thomas S. Mirigliano",
+    name: "TD STUDIOS Legal Team",
     jobTitle: "Attorney at Law",
     worksFor: {
       "@type": "LegalService",

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a law firm website for the Law Office of Thomas S. Mirigliano, built with Next.js 15, React 19, TypeScript, and Tailwind CSS v4. The site includes a contact form API route that currently logs to console (ready to integrate Resend for email).
+This is a law firm website for TD STUDIOS, built with Next.js 15, React 19, TypeScript, and Tailwind CSS v4. The site includes a contact form API route that currently logs to console (ready to integrate Resend for email).
 
 ## Tech Stack
 

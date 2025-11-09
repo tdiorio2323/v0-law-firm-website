@@ -4,8 +4,8 @@ import { siteConfig } from "@/lib/site"
 import { Award, GraduationCap, Scale, Users, Clock, Shield } from "lucide-react"
 
 export const metadata = {
-  title: "About Thomas S. Mirigliano | Experienced Trial Attorney | NYC & NJ",
-  description: "Meet Thomas S. Mirigliano, an experienced trial lawyer with over a decade of success in criminal defense, civil rights, employment law, and complex civil litigation across New York and New Jersey courts.",
+  title: "About TD STUDIOS | Experienced Legal Team | NYC & NJ",
+  description: "Meet the TD STUDIOS legal team, experienced trial lawyers with over a decade of success in criminal defense, civil rights, employment law, and complex civil litigation across New York and New Jersey courts.",
 }
 
 export default function AboutPage() {
@@ -69,9 +69,9 @@ export default function AboutPage() {
     <Section>
       <div className="max-w-4xl mx-auto py-12">
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">About Thomas S. Mirigliano</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">About TD STUDIOS</h1>
           <p className="text-xl text-white/80 leading-relaxed max-w-3xl mx-auto">
-            Experienced trial attorney providing strategic, results-driven representation in criminal defense, civil rights, employment law, and complex civil litigation.
+            Experienced legal team providing strategic, results-driven representation in criminal defense, civil rights, employment law, and complex civil litigation.
           </p>
         </div>
 
@@ -79,13 +79,13 @@ export default function AboutPage() {
         <div className="prose prose-lg prose-invert max-w-none mb-12">
           <div className="rounded-2xl border border-white/10 bg-white/5 p-8">
             <p className="text-white/90 leading-relaxed mb-4">
-              Thomas S. Mirigliano is a dedicated trial attorney with over a decade of experience representing clients in some of the most challenging legal matters. Whether defending individuals facing criminal charges, fighting for civil rights, advocating for employees, or litigating complex civil disputes, Thomas brings a strategic, client-focused approach to every case.
+              TD STUDIOS is a dedicated legal team with over a decade of experience representing clients in some of the most challenging legal matters. Whether defending individuals facing criminal charges, fighting for civil rights, advocating for employees, or litigating complex civil disputes, our team brings a strategic, client-focused approach to every case.
             </p>
             <p className="text-white/90 leading-relaxed mb-4">
-              With extensive experience in both state and federal courts across New York and New Jersey, Thomas has built a reputation for thorough preparation, aggressive advocacy, and achieving favorable outcomes for his clients. He understands that every case involves real people facing serious consequences, and he treats each matter with the attention and dedication it deserves.
+              With extensive experience in both state and federal courts across New York and New Jersey, we have built a reputation for thorough preparation, aggressive advocacy, and achieving favorable outcomes for our clients. We understand that every case involves real people facing serious consequences, and we treat each matter with the attention and dedication it deserves.
             </p>
             <p className="text-white/90 leading-relaxed">
-              Thomas believes in early case investigation, strategic motion practice, and trial-ready preparation. This approach not only positions cases for success at trial but also creates leverage for favorable settlements when appropriate. Available 24/7 for urgent legal matters, Thomas is committed to protecting your rights and fighting for the best possible outcome in your case.
+              Our firm believes in early case investigation, strategic motion practice, and trial-ready preparation. This approach not only positions cases for success at trial but also creates leverage for favorable settlements when appropriate. Available 24/7 for urgent legal matters, we are committed to protecting your rights and fighting for the best possible outcome in your case.
             </p>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function AboutPage() {
             <div>
               <h3 className="text-xl font-semibold text-white mb-2">Client-Centered Advocacy</h3>
               <p className="leading-relaxed">
-                Every client receives personalized attention and direct communication with the attorney handling their case. Your legal matter is not delegated to paralegals or junior associates—you work directly with Thomas from start to finish.
+                Every client receives personalized attention and direct communication with the attorneys handling their case. Your legal matter is not delegated to paralegals or junior associates—you work directly with our experienced team from start to finish.
               </p>
             </div>
             <div>
@@ -146,7 +146,7 @@ export default function AboutPage() {
             <div>
               <h3 className="text-xl font-semibold text-white mb-2">Available When You Need It</h3>
               <p className="leading-relaxed">
-                Legal emergencies don't wait for business hours. Available 24/7 for urgent matters including arrests, police questioning, and time-sensitive legal issues, Thomas ensures clients receive immediate guidance when they need it most.
+                Legal emergencies don't wait for business hours. Available 24/7 for urgent matters including arrests, police questioning, and time-sensitive legal issues, our team ensures clients receive immediate guidance when they need it most.
               </p>
             </div>
           </div>
@@ -156,10 +156,10 @@ export default function AboutPage() {
         <div className="rounded-2xl border border-gold/20 bg-gold/5 p-8 mb-12">
           <h2 className="text-2xl font-semibold mb-4 text-gold">Commitment to Excellence</h2>
           <p className="text-white/90 leading-relaxed mb-4">
-            Thomas S. Mirigliano is committed to providing the highest level of legal representation to every client. Whether you're facing criminal charges, fighting for your civil rights, dealing with employment discrimination, or involved in complex civil litigation, you deserve an attorney who will fight tirelessly for your rights and interests.
+            TD STUDIOS is committed to providing the highest level of legal representation to every client. Whether you're facing criminal charges, fighting for your civil rights, dealing with employment discrimination, or involved in complex civil litigation, you deserve attorneys who will fight tirelessly for your rights and interests.
           </p>
           <p className="text-white/90 leading-relaxed">
-            With over a decade of courtroom experience, extensive knowledge of New York and New Jersey law, and a proven track record of favorable outcomes, Thomas has the skills and dedication needed to handle your case effectively. Your future is too important to trust to anyone less committed.
+            With over a decade of courtroom experience, extensive knowledge of New York and New Jersey law, and a proven track record of favorable outcomes, our team has the skills and dedication needed to handle your case effectively. Your future is too important to trust to anyone less committed.
           </p>
         </div>
 
