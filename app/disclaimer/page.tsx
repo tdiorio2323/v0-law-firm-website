@@ -1,8 +1,9 @@
 import { Section } from "@/components/section"
+import { siteConfig } from "@/lib/site"
 
 export const metadata = {
-  title: "Legal Disclaimer | Law Office of Thomas S. Mirigliano",
-  description: "Important legal disclaimers and terms of use for the Law Office of Thomas S. Mirigliano website."
+  title: "Legal Disclaimer | TD STUDIOS",
+  description: "Important legal disclaimers and terms of use for the TD STUDIOS website."
 }
 
 export default function DisclaimerPage() {
@@ -51,13 +52,20 @@ export default function DisclaimerPage() {
             </p>
           </div>
 
+                    <div className="rounded-xl border border-white/10 bg-white/5 p-8">
+            <h2 className="text-2xl font-semibold mb-4 text-gold">Jurisdiction and Scope of Practice</h2>
+            <p className="text-white/80 leading-relaxed">
+              TD STUDIOS practices law in New York and New Jersey. We are admitted to practice in state courts in New York and New Jersey, as well as the U.S. District Courts for the Southern District of New York, Eastern District of New York, and District of New Jersey. We do not practice law in any other jurisdiction unless specifically admitted for a particular case.
+            </p>
+          </div>
+
           <div className="rounded-xl border border-white/10 bg-white/5 p-8">
             <h2 className="text-2xl font-semibold mb-4 text-gold">Confidentiality Warning</h2>
             <p className="text-white/80 leading-relaxed mb-4">
               <strong>Do not send confidential or time-sensitive information through this website's contact form or email until an attorney-client relationship has been formally established.</strong> Communications through this website may not be privileged or confidential.
             </p>
             <p className="text-white/80 leading-relaxed">
-              If you have an urgent legal matter, please call our office directly at (718) 530-6548 to speak with an attorney.
+              If you have an urgent legal matter, please call our office directly at {siteConfig.phone} to speak with an attorney.
             </p>
           </div>
 
@@ -99,7 +107,7 @@ export default function DisclaimerPage() {
           <div className="rounded-xl border border-white/10 bg-white/5 p-8">
             <h2 className="text-2xl font-semibold mb-4 text-gold">Professional Rules</h2>
             <p className="text-white/80 leading-relaxed">
-              This website is an advertisement for legal services as required by professional rules of conduct. The Law Office of Thomas S. Mirigliano is subject to the professional conduct rules of New York and New Jersey, including rules regarding attorney advertising and solicitation.
+              This website is an advertisement for legal services as required by professional rules of conduct. TD STUDIOS is subject to the professional conduct rules of New York and New Jersey, including rules regarding attorney advertising and solicitation.
             </p>
           </div>
 
@@ -109,9 +117,9 @@ export default function DisclaimerPage() {
               If you have questions about these disclaimers or wish to discuss a potential legal matter, please contact us:
             </p>
             <div className="text-white/90 space-y-2">
-              <p><strong>Law Office of Thomas S. Mirigliano</strong></p>
-              <p>40 Wall St, 32nd Fl, New York, NY 10005</p>
-              <p>Phone: <a href="tel:+17185306548" className="text-gold hover:underline">(718) 530-6548</a></p>
+              <p><strong>{siteConfig.name}</strong></p>
+              <p>{siteConfig.address}</p>
+              <p>Phone: <a href={siteConfig.phoneHref} className="text-gold hover:underline">{siteConfig.phone}</a></p>
               <p className="text-sm text-white/70 mt-4">Available 24/7 for urgent legal matters</p>
             </div>
           </div>

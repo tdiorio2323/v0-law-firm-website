@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import { siteConfig } from "@/lib/site"
 
 export function Hero() {
   return (
@@ -37,10 +38,10 @@ export function Hero() {
             Free Consultation
           </Link>
           <a
-            href="tel:+17185306548"
+            href={siteConfig.phoneHref}
             className="inline-flex items-center rounded-lg border border-white/30 bg-white/10 backdrop-blur-sm px-5 py-3 text-sm font-medium text-white hover:bg-white/20 shadow-lg transition"
           >
-            (718) 530-6548
+            {siteConfig.phone}
           </a>
         </div>
       </div>

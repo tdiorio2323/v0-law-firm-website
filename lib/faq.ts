@@ -1,3 +1,5 @@
+import { siteConfig } from './site'
+
 export interface FAQ {
   id: string
   question: string
@@ -29,7 +31,7 @@ export const faqs: FAQ[] = [
     id: "4",
     category: "general",
     question: "Are you available for emergencies?",
-    answer: "Yes, we are available 24/7 for urgent legal matters. If you've been arrested or are facing an immediate legal crisis, call us right away at (718) 530-6548. Time-sensitive situations require immediate attention, and we're here to help."
+    answer: `Yes, we are available 24/7 for urgent legal matters. If you've been arrested or are facing an immediate legal crisis, call us right away at ${siteConfig.phone}. Time-sensitive situations require immediate attention, and we're here to help.`
   },
   {
     id: "5",

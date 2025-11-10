@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Section } from "@/components/section"
+import { siteConfig } from "@/lib/site"
 import { Scale, Shield, Users, FileText, Gavel, AlertCircle } from "lucide-react"
 
 export const metadata = {
@@ -167,10 +168,10 @@ export default function CivilRights() {
                 Free Consultation
               </Link>
               <a
-                href="tel:+17185306548"
+                href={siteConfig.phoneHref}
                 className="inline-flex items-center rounded-lg border border-white/20 px-6 py-3 text-sm font-medium text-white hover:bg-white/5 transition"
               >
-                Call (718) 530-6548
+                Call {siteConfig.phone}
               </a>
             </div>
           </div>

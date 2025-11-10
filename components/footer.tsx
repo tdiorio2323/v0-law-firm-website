@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { siteConfig } from "@/lib/site"
 
 export function Footer() {
   return (
@@ -12,13 +13,18 @@ export function Footer() {
             <p className="text-neutral-400">New York, NY 10005</p>
             <p className="text-neutral-400 mt-3">Open 24 Hours</p>
             <p className="mt-1">
-              <a className="text-gold hover:text-gold/80 font-medium transition-colors duration-200" href="tel:+17185306548">
-                (718) 530-6548
+              <a className="text-gold hover:text-gold/80 font-medium transition-colors duration-200" href={siteConfig.phoneHref}>
+                {siteConfig.phone}
               </a>
             </p>
             <p className="mt-1">
-              <a className="text-neutral-400 hover:text-white transition-colors duration-200" href="mailto:contact@mirigliano-law.com">
-                contact@mirigliano-law.com
+              <a className="text-neutral-400 hover:text-white transition-colors duration-200" href={`mailto:${siteConfig.email}`}>
+                {siteConfig.email}
+              </a>
+            </p>
+            <p className="mt-1">
+              <a className="text-neutral-400 hover:text-white transition-colors duration-200" href={`https://instagram.com/${siteConfig.instagram.replace('@', '')}`} target="_blank" rel="noopener noreferrer">
+                {siteConfig.instagram}
               </a>
             </p>
           </div>

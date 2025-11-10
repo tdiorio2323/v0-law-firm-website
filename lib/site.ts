@@ -1,10 +1,11 @@
 export const siteConfig = {
   name: "TD STUDIOS",
-  phone: "(718) 530-6548",
-  phoneHref: "tel:+17185306548",
+  phone: "(347) 485-9935",
+  phoneHref: "tel:+13474859935",
   address: "40 Wall St, 32nd Fl, New York, NY 10005",
   hours: "Open 24 Hours",
-  email: "contact@mirigliano-law.com", // placeholder
+  email: "tyler@tdstudiosny.com",
+  instagram: "@tdstudiosco",
 
   hero: {
     headline: "Vigilant Litigation. Results-Driven Representation.",

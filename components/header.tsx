@@ -2,6 +2,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Menu, X } from "lucide-react"
+import { siteConfig } from "@/lib/site"
 
 const nav = [
   { href: "/", label: "Home" },
@@ -30,17 +31,17 @@ export function Header() {
             </Link>
           ))}
           <a
-            href="tel:+17185306548"
+            href={siteConfig.phoneHref}
             className="inline-flex h-9 items-center rounded-lg bg-gold px-4 text-black text-sm font-medium hover:opacity-90 transition"
           >
-            Call (718) 530-6548
+            Call {siteConfig.phone}
           </a>
         </nav>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center gap-2">
           <a
-            href="tel:+17185306548"
+            href={siteConfig.phoneHref}
             className="inline-flex h-9 items-center rounded-lg bg-gold px-3 text-black text-sm font-medium hover:opacity-90 transition"
           >
             Call

@@ -2,6 +2,7 @@
 
 import type React from "react"
 import { useState } from "react"
+import { siteConfig } from "@/lib/site"
 
 interface FormState {
   status: "idle" | "submitting" | "success" | "error"
@@ -55,7 +56,7 @@ export function ContactForm() {
       // If API doesn't exist or fails, show demo message
       setFormState({
         status: "error",
-        message: "Demo mode: Form submission is disabled. Please call (718) 530-6548 to reach us directly.",
+        message: `Demo mode: Form submission is disabled. Please call ${siteConfig.phone} to reach us directly.`,
       })
     }
   }
@@ -172,8 +173,8 @@ export function ContactForm() {
         </button>
         <p className="mt-3 text-sm text-white/60">
           Or call us directly at{" "}
-          <a href="tel:+17185306548" className="text-gold hover:underline">
-            (718) 530-6548
+          <a href={siteConfig.phoneHref} className="text-gold hover:underline">
+            {siteConfig.phone}
           </a>
         </p>
       </div>
